@@ -1,0 +1,998 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xml:lang="en" lang="en" dir="ltr"  xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<link href="/sites/all/assets/font-awesome-more/css/font-awesome.min.css" rel="stylesheet">
+<!--[if IE 7]>
+<link href="/sites/all/assets/font-awesome-more/css/font-awesome-ie7.min.css" rel="stylesheet">
+<![endif]-->
+<link href="/sites/all/assets/font-awesome-more/css/font-awesome-social.css" rel="stylesheet">
+<link href="/sites/all/assets/font-awesome-more/css/font-awesome-ext.css" rel="stylesheet">
+<link href="/sites/all/assets/font-awesome-more/css/font-awesome-corp.css" rel="stylesheet">
+
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+
+  <title>How Trump Can Quash Obama’s Last Effort to Fight the Coal Industry | Mother Jones</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/assets/mj.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="Mother Jones Blogs and Articles" href="/rss/blogs_and_articles/feed" /><link rel="alternate" type="application/rss+xml" title="Mother Jones Articles Only" href="/rss/articles/feed" /><link rel="alternate" type="application/rss+xml" title="Subscribe to Natalie Schreyer's RSS Feed" href="/rss/authors/305771" />
+<meta property="og:url" content="http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="How Trump can quash Obama’s last effort to fight the coal industry"/>
+<meta property="og:description" content="The Obama administration might finally enact regulations to protect streams. But is it too late?"/>
+<meta property="og:image" content="http://www.motherjones.com/files/coal_stream_resize.jpg"/>
+<meta property="fb:admins" content="13301307,670317733,1198876232,38509772,106892,2907757,306289,602422192,4101301,513450539"/>
+<meta property="og:site_name" content="Mother Jones"/>
+<meta name='twitter:card' content='summary_large_image'>
+<meta property="twitter:url" content="http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal"/>
+<meta property="twitter:title" content="How Trump can quash Obama’s last effort to fight the coal industry"/>
+<meta property="twitter:description" content="The Obama administration might finally enact regulations to protect streams. But is it too late?"/>
+<meta property="twitter:image" content="http://www.motherjones.com/files/coal_stream_resize.jpg"/>
+<meta property="twitter:image:src" content="http://www.motherjones.com/files/coal_stream_resize.jpg"/>
+<meta name="twitter:site" content="@MotherJones">
+<meta property="keywords" content="Climate+Change,Climate+Desk,Energy"/>
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/assets/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/assets/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/assets/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/assets/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/assets/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/assets/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/assets/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/assets/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/assets/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/assets/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/assets/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="Mother Jones Magazine"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="/sites/all/assets/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/assets/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/assets/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/assets/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/assets/mstile-310x310.png" />
+    <link type="text/css" rel="stylesheet" media="all" href="http://www.motherjones.com/files/css/css_b9d0b36f844c5ad25d9b778bb19b42f9.css" />
+<link type="text/css" rel="stylesheet" media="print" href="http://www.motherjones.com/files/css/css_4bd8641be89068c6109321bd2516b944.css" />
+<!--[if (gte IE 8.0)&(lte IE 8.9)]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/denali/ie8.css?e" />
+<![endif]-->
+<!--[if lte IE 7.9]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/denali/ie7.css?e" />
+<![endif]-->
+<!--[if lte IE 6.9]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/denali/ie6.css?e" />
+<![endif]-->
+
+  <script type="text/javascript" src="http://www.motherjones.com/files/js/js_ab5a3f557876c23c335682c5c606d647.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","jstools":{"cleanurls":true,"basePath":"\/"},"collapsiblock":{"blocks":{"block-mojo-4":"1","block-mojo-5":"1","block-mojo-6":"1","block-mojo-0":"1","block-mojo-7":"1","block-views-front_featured_photoessays":"1","block-block-1":"1","block-block-5":"1","block-block-6":"1","block-block-7":"1","block-block-8":"1","block-block-11":"1","block-menu-132":"1","block-block-12":"1","block-block-13":"1","block-block-2":"1","block-block-14":"1","block-block-15":"1","block-block-16":"1","block-mojo-1":"1","block-block-17":"1","block-views-today_top_stories":"1","block-block-18":"1","block-block-19":"1","block-block-10":"1","block-block-9":"1","block-mojo-2":"1","block-views-todays_top_stories":"1","block-block-3":"1","block-block-20":"1","block-block-4":"1","block-block-21":"1","block-block-22":"1","block-block-23":"1","block-views-featured_photo":"1","block-block-26":"1","block-block-27":"1","block-block-28":"1","block-block-29":"1","block-mojo-8":"1","block-block-32":"1","block-block-30":"1","block-block-31":"1","block-block-34":"1","block-block-35":"1","block-block-25":"1","block-search-0":"1","block-block-38":"1","block-block-39":"1","block-block-40":"1","block-block-37":"1","block-block-42":"1","block-block-43":"1","block-views-todays_top_stories_blog":"1","block-block-44":"1","block-block-33":"1","block-block-46":"1","block-block-47":"1","block-blockcache-52":"1","block-block-48":"1","block-custom_pagers-3":"1","block-custom_pagers-1":"1","block-custom_pagers-2":"1","block-custom_pagers-4":"1","block-blockcache-100":"1","block-block-49":"1","block-aggregator-feed-1":"1","block-block-50":"1","block-blockcache-111":"1","block-block-53":"1","block-blockcache-117":"1","block-block-54":"1","block-block-52":"1","block-block-55":"1","block-views-author_page_views-block_1":"1","block-views-author_page_views-block_2":"1","block-motherjones_custom-0":"1","block-motherjones_custom-2":"1","block-motherjones_packages-0":"1","block-google_cse-0":"1","block-views-photoessay-block_1":"1","block-block-56":"1","block-views-nodequeue_15-block":"1","block-views-nodequeue_16-block":"1","block-block-57":"1","block-block-58":"1","block-menu-menu-about-us":"1","block-block-59":"1","block-views-nodequeue_1-block":"1","block-views-photoessay-block_2":"1","block-motherjones_custom-1":"1","block-motherjones_custom-3":"1","block-motherjones_packages-1":"1","block-views-user_comments-block_1":"1","block-motherjones_custom-5":"1","block-block-62":"1","block-block-61":"1","block-block-60":"1","block-shorten-shorten_short":"1","block-block-64":"1","block-menu-devel":"1","block-masquerade-0":"1","block-devel-2":"1","block-block-66":"1","block-block-71":"1","block-block-81":"1","block-block-76":"1","block-block-96":"1","block-block-91":"1","block-block-86":"1","block-block-101":"1","block-block-106":"1","block-motherjones_custom-4":"1","block-block-111":"1","block-block-116":"1","block-block-121":"1","block-block-126":"1","block-block-131":"1","block-block-136":"1","block-block-141":"1","block-block-146":"1","block-views-f9dd087a5d59c2131fdcac7649d899d3":"1","block-block-151":"1","block-block-156":"1","block-views-b96c7d250ca0ca9f7dd44154488f4101":"1","block-aggregator-feed-6":"1","block-block-161":"1","block-views-ab80be25ae5f55fd10864c047f2315f3":"1","block-views-260f549157fa37d72ef941f6a6708d54":"1","block-block-167":"1","block-block-162":"1","block-block-172":"1","block-block-177":"1","block-block-187":"1","block-aggregator-feed-7":"1","block-block-192":"1","block-block-197":"1","block-block-202":"1","block-block-207":"1","block-block-222":"1","block-block-227":"1","block-block-232":"1","block-block-237":"1","block-block-242":"1","block-aggregator-feed-11":"1","block-block-246":"1","block-block-251":"1","block-block-256":"1","block-block-276":"1","block-block-266":"1","block-block-271":"1","block-views-9f0e1fef3ed55017927a326d491ba4f0":"1","block-views-c8944b92c21ae69ad29633f1fcd949ed":"1","block-block-281":"1","block-block-286":"1","block-block-291":"1","block-block-296":"1","block-quicktabs-1":"4","block-views-author_twitter_feed-block_1":"1","block-block-301":"1","block-block-311":"1","block-block-306":"1","block-block-316":"1","block-block-346":"1","block-block-326":"1","block-block-351":"1","block-block-331":"1","block-block-336":"1","block-block-341":"1","block-block-321":"1","block-block-356":"1","block-menu-menu-press-room":"1","block-block-366":"1","block-views-must_reads-block_1":"1","block-block-371":"1","block-block-376":"1","block-block-381":"1","block-block-386":"1","block-block-391":"1","block-block-401":"1","block-motherjones_custom-8":"1","block-views-alumni_love-block":"1","block-views-interns-block_1":"1","block-views-front_slider-block":"1","block-block-396":"1","block-block-406":"1","block-block-411":"1","block-block-51":"1","block-block-416":"1","block-motherjones_custom-9":"1","block-views-frontpage_stories-block_2":"1","block-aggregator-feed-136":"1","block-menu-menu-mediakit-magazine":"1","block-menu-menu-mediakit-secondary":"1","block-menu-menu-mediakit-primary":"1","block-block-426":"1","block-menu-menu-mediakit-website":"1","block-menu-menu-mediakit-email":"1","block-block-431":"1","block-block-436":"1","block-node_gallery-0":"1","block-webform-client-block-121716":"1","block-block-442":"1","block-block-447":"1","block-block-441":"1","block-block-452":"1","block-block-457":"1","block-menu-menu-planned-giving":"1","block-block-462":"1","block-block-467":"1","block-block-471":"1","block-block-476":"1","block-block-481":"1","block-block-486":"1","block-block-491":"1","block-block-496":"1","block-block-501":"1","block-block-511":"1","block-block-516":"1","block-block-506":"1","block-block-521":"1","block-block-526":"1","block-block-536":"1","block-block-531":"1","block-block-541":"1","block-block-551":"1","block-block-546":"1","block-block-561":"1","block-block-566":"1","block-block-556":"1","block-views-popular-block_1":"1","block-block-571":"1","block-views-2f0bd41981e6dcaf3c48bd0a87aa5829":"1","block-menu-menu-about-donate":"1","block-block-576":"1","block-block-581":"1","block-block-606":"1","block-block-586":"1","block-block-591":"1","block-block-596":"1","block-block-601":"1","block-block-631":"1","block-block-636":"1","block-block-626":"1","block-block-261":"1","block-disqus-disqus_comments":"1","block-block-641":"1","block-block-646":"1","block-block-651":"1","block-block-661":"1","block-block-656":"4","block-block-666":"1","block-views-section_page_headlines-block_1":"1","block-views-section_page_headlines-block_6":"1","block-views-section_page_headlines-block_7":"1","block-block-681":"1","block-views-section_page_headlines-block_3":"1","block-views-section_page_headlines-block_5":"1","block-views-section_page_headlines-block_4":"1","block-views-most_popular_frontpage-block_1":"1","block-views-section_page_headlines-block_2":"1","block-block-686":"1","block-block-691":"1","block-block-696":"1","block-block-701":"1","block-block-706":"1","block-block-711":"1","block-block-721":"1","block-block-716":"1","block-block-726":"1","block-block-731":"1","block-block-736":"1","block-block-741":"1","block-block-746":"1","block-block-751":"1","block-block-756":"1","block-block-766":"1","block-block-776":"1","block-block-781":"1","block-block-786":"1","block-block-791":"1","block-block-796":"1","block-block-806":"1","block-block-816":"1","block-block-811":"1","block-block-671":"1","block-block-826":"1","block-block-831":"1","block-block-836":"1","block-block-841":"1","block-block-846":"1","block-block-856":"1","block-block-861":"1","block-block-871":"1","block-block-866":"1","block-block-876":"1","block-views-popular-block_3":"1","block-block-881":"1","block-views-popular-block_2":"1","block-block-886":"1"},"default_state":1,"slide_type":1,"slide_speed":200,"block_title":":header:first","block":"div.block","block_content":"div.content"},"user_validate":1480521782,"disqusCommentDomain":"motherjones","denali":{"section":"environment","author":"Natalie Schreyer","ad_locations_str":"","ad_primary_tags":null}});
+//--><!]]>
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2458520-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <script type="text/javascript"> </script>
+<script type='text/javascript' src='http://mj-tech.motherjones.net/ansible2.js'></script>
+</head>
+<body class="not-front not-logged-in node-type-article one-sidebar sidebar-right page-environment-2016-11-trump-obama-stream-protection-rule-coal section-environment">
+<!-- begin following navbar -->
+  <div id="navbar">
+    <ul>
+      <li class="logo">
+        <a href="/">
+          <img src="/sites/all/assets/MJ_comp.png"
+          alt="MotherJones" />
+        </a>
+      </li>
+          <li class="nav-title">
+        How Trump Can Quash Obama’s Last Effort to Fight the Coal Industry      </li>
+      <li class="share-button facebook">
+        <a onclick="ga('send', 'event', 'EndOfArticle', 'FacebookShare|Click', window.location.href);" href="http://facebook.com/sharer.php?u=http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal" target="_blank"><i class="icon-facebook"></i><span class="nearicon">Share on Facebook</span></a>      </li>
+      <li class="share-button twitter">
+        <a onclick="ga('send', 'event', 'EndOfArticle', 'TwitterShare|Click', window.location.href);" href="http://twitter.com/home?status=How+Trump+can+quash+Obama%E2%80%99s+last+effort+to+fight+the+coal+industry http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal via @MotherJones" target="_blank"><i class="icon-twitter"></i><span class="nearicon">Share on Twitter</span></a>      </li>
+      <li class="menu-button">
+        <a onclick="expandMenu();">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_Icon" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 125 125" enable-background="new 0 0 125 125" xml:space="preserve">
+            <path d="M0,100.869"></path>
+            <rect y="30" width="125" height="15"></rect>
+            <rect y="70" width="125" height="15"></rect>
+            <rect y="110" width="125" height="15"></rect>
+          </svg>
+        </a>
+      </li>
+      <li class="donate-link article-page">
+        <a href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGP002&extra_don=1&abver=A"
+          target="_blank"
+        >
+          Donate
+        </a>
+      </li>
+      <li class="subscribe-link article-page">
+        <a href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN1&base_country=US"
+          target="_blank"
+        >
+          Subscribe
+        </a>
+      </li>
+          </ul>
+    <div id="mj_menu_select" class="">
+        <ul id="mj_menu_options">
+            <li id="menu_search_select"><a href="/search/apachesolr_search">Search</a></li>
+            <li id="menu_newsletter"><a href="/about/interact-engage/free-email-newsletter">Newsletter</a></li>
+            <li id="menu_magazine"><a href="/magazine">Magazine</a></li>
+            <li id="menu_politics_select"><a href="/politics">Politics</a></li>
+            <li id="menu_environment_select"><a href="/environment">Environment</a></li>
+            <li id="menu_culture_select"><a href="/media">Media</a></li>
+            <li id="menu_justice_select"><a href="/topics/crime-and-justice">Crime and Justice</a></li>
+            <li id="menu_food_select"><a href="/topics/food">Food</a></li>
+            <li id="menu_guns_select"><a href="/topics/guns">Guns</a></li>
+            <li id="menu_dark_money_select"><a href="/topics/dark-money">Dark Money</a></li>
+            <li id="menu_photo_select"><a href="/photoessays">Photos</a></li>
+            <li id="menu_investigations_select"><a href="/topics/investigations">Investigations</a></li>
+            <li id="menu_podcast_select"><a href="/podcasts">Podcasts</a></li>
+            <li id="menu_drum_select"><a href="/kevin-drum">Kevin Drum</a></li>
+            <li id="menu_about_select"><a href="/about">About</a></li>
+            <li id="menu_subscribe_select"><a target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN1A&base_country=US">Subscribe</a></li>
+            <li id="menu_donate_select"><a target="_blank" href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGP003&extra_don=1&abver=A">Donate</a></li>
+        </ul>
+    </div>
+  </div>
+<!-- end following navbar -->
+      <div id="pre-page" class="region region-pre-page clear-block">
+      <div id="block-block-886" class="block block-block region-odd even region-count-1 count-18 blockname-block-block-check-email-function-block "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <script type="text/javascript">
+function MJ_check_email (form) {
+  form.signup_url.value = document.URL;
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = form.cons_email.value;
+	var input_check = document.getElementById("email_field").value;
+
+  if(reg.test(address) !== false) {
+		if (input_check === "") {
+      return true;
+    }
+		else {
+			return false;
+		}
+  } else {
+    alert("Please enter a valid email address.");
+    form.cons_email.focus();
+    return false;
+  }
+}
+</script>
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-531" class="block block-block region-even odd region-count-2 count-19 blockname-block-block-clickable-sitewrap "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <script language="javascript">
+<!--
+if (typeof(MJ_HideSiteWrap) === 'undefined') {
+  $('head').append('<link rel="stylesheet" href="http://assets.motherjones.com/advertising/2014/05/sierra_club_sitewrap.css" type="text/css" />');
+  ad_code('siteskin',1559);
+}
+//-->
+</script>
+
+<style>
+#block-block-531{ height: 0px!important; }
+.pullquote-left {
+left: 0!important;
+margin-right: 20px!important;
+}
+</style>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+    </div> <!-- /#pre-page -->
+    <div id="page"><div id="page-inner">
+
+    <a name="navigation-top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="#navigation">Skip to Navigation</a></div>
+        <div id="skip-to-content"><a href="#site-content">Skip to Content</a></div>
+
+          <div id="pre-header" class="region region-pre-header clear-block">
+        <div id="block-block-486" class="block block-block region-odd odd region-count-1 count-17 blockname-block-block-pre-header---billboard-ad "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <script language="javascript">
+<!--
+if (typeof MJ_HideTopROS970x250 === 'undefined') {
+  ad_code('TopROS970x250',2473);
+}
+//-->
+</script>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+      </div> <!-- /#pre-header -->
+
+    <div id="header"><div id="header-inner" class="clear-block">
+
+
+
+
+    </div></div> <!-- /#header-inner, /#header -->
+
+
+
+          <div id="static-navbar"><div id="navbar-inner" class="region region-navbar clear-block">
+
+        <a name="navigation" id="navigation"></a>
+
+
+                  <div id="primary">
+            <ul class="menu"><li class="leaf first menu-item-home"><a href="/" title="Mother Jones Homepage"><img src="/sites/all/assets/MJ_comp.png" /></a></li>
+<li class="leaf menu-item-politics"><a href="/politics" title="Politics">Politics</a></li>
+<li class="leaf menu-item-environment"><a href="/environment" title="Environment">Environment</a></li>
+<li class="leaf menu-item-food"><a href="/topics/food" title="">Food</a></li>
+<li class="leaf menu-item-media"><a href="/media" title="Media">Media</a></li>
+<li class="leaf menu-item-crime-amp-justice"><a href="/topics/crime-and-justice" title="">Crime &amp; Justice</a></li>
+<li class="leaf menu-item-photos"><a href="/photoessays" title="Photos">Photos</a></li>
+<li class="leaf menu-item-investigations"><a href="/topics/investigations" title="">Investigations</a></li>
+<li class="leaf menu-item-magazine"><a href="http://www.motherjones.com/magazine" title="">Magazine</a></li>
+<li class="leaf menu-item-subscribe"><a href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&amp;pub_code=MJM&amp;term_pub=MJM&amp;list_source=SEGYN&amp;base_country=US" title="Subscribe">Subscribe</a></li>
+<li class="leaf last menu-item-donate"><a href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&amp;list_source=7HEGP001&amp;extra_don=1&amp;abver=A" title="Donate">Donate</a></li>
+</ul>          </div> <!-- /#primary -->
+<!-- Script for SUPERFISH -->
+<script type="text/javascript">
+$("#navbar ul.menu").superfish();
+</script>
+
+
+
+
+      </div></div> <!-- /#navbar-inner, /#navbar -->
+
+          <div id="ticker" class="region region-ticker clear-block">
+        <div id="block-block-131" class="block block-block region-odd odd region-count-1 count-15 blockname-block-block-legal-defence-fund-bar "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <style>
+  #main_bar_div {
+    background: url('http://assets.motherjones.com/sitewide/membership-background-bar-lite-2.png') top left transparent;
+    padding: 2px 5px 4px 5px !important;
+    width: 960px !important;
+    margin: 5px auto 25px auto !important;
+  }
+  a.links_membership_bar {
+    color: #ff6900 !important;
+    font-weight: bold;
+  }
+  a:hover.links_membership_bar {
+    color: #ff9c33 !important;
+  }
+</style>
+
+<div id="main_bar_div">
+  <p style="text-align: center;font-family: Mallory,sans-serif;font-size: 16px;font-weight: bold;">Thank you! Readers like you are helping us <a href="http://www.motherjones.com/media/2016/11/trump-media-fail" target="_blank" onclick="var url = $(event.target).attr('href'); ga('send', 'event', 'MembershipBar', url, document.location);"class="links_membership_bar">double down on our investigative reporting</a> when it's more needed than ever.</p>
+</div>
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+      </div>
+
+    <div id="main"><div id="main-inner" class="clear-block">
+
+              <div id="node-header" class="clear-block">
+          <div id="node-header-data" class="node-header-data-primary"><h1 class="title">How Trump Can Quash Obama’s Last Effort to Fight the Coal Industry</h1><h3 class="dek">The Obama administration might finally enact regulations to protect streams. But is it too late?</h3><p class="dateline-byline"><span class="byline byline-byline"><a href="/authors/natalie-schreyer" rel="author">Natalie Schreyer</a></span><span id="dateline">Nov. 30, 2016 6:00 AM</span></p><div class="hdr-tools"><ul class="article-tools"><li class="fblike toolbar-btn"><a onclick="ga('send', 'event', 'EndOfArticle', 'FacebookShare|Click', window.location.href);" href="http://facebook.com/sharer.php?u=http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal" target="_blank"><i class="icon-facebook"></i><span class="nearicon">Share on Facebook</span></a></li><li class="tweet toolbar-btn"><a onclick="ga('send', 'event', 'EndOfArticle', 'TwitterShare|Click', window.location.href);" href="http://twitter.com/home?status=How+Trump+can+quash+Obama%E2%80%99s+last+effort+to+fight+the+coal+industry http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal via @MotherJones" target="_blank"><i class="icon-twitter"></i><span class="nearicon">Share on Twitter</span></a></li><li class="forward toolbar-btn"><a href="/forward?path=node/320251" title="Forward by Email"><i class="icon-envelope"></i><span class="nearicon">Email</span></a></li><li class="print toolbar-btn"><a href="/print/320251" title="Printer Friendly Version"><i class="icon-print"></i></a></li></ul></div></div><!--node header data-->        </div>
+
+      <div id="content"><div id="content-inner">
+
+      </div></div> <!-- end content end content-inner -->
+                  <div id="content-header">
+                                                          </div> <!-- /#content-header -->
+
+        <div id="content"/><div id="content-inner"> <!-- why doesn't this match on mobile? -->
+                          <div id="content-area" class="clear-block">
+
+          <div id="node-320251" class="node node-type-article node-type-article-full"><div class="node-inner clear-block">
+
+
+
+
+
+
+  <div class="content clear-block">
+    <div id="node-body-top" class="clear-block"><div class="node-master-image-large"><img src="http://www.motherjones.com/files/imagecache/top-of-content-image/coal_stream_resize.jpg" alt="" title="" width="630" height="354" class="imagecache imagecache-top-of-content-image"/><p class="master-image-data"><span class="master-image-caption">Montana's Belt Creek has been polluted by drainage from a nearby coal mine.</span> <span class="byline photo-byline">Tom Henderson/AP</span></p></div><p>As the clock ticks down to the beginning of Donald Trump's presidency, the Obama administration is moving to enact one final measure aimed at cutting coal pollution. According to a spokesperson for the Interior Department, the administration intends to release an update to a decades-old regulation protecting streams from the impacts of mining before Obama leaves office on January 20.</p>
+
+<p>Obama's climate and environmental policies have largely been defined by a slew of executive actions and new regulations, including limits on carbon and mercury emissions from coal-fired power <a href="https://www.epa.gov/cleanpowerplan/clean-power-plan-existing-power-plants" target="_blank">plants</a>; new fuel efficiency <a href="https://www.washingtonpost.com/news/energy-environment/wp/2016/08/16/white-house-sets-new-fuel-efficiency-standards-for-heavy-duty-trucks-vans-and-buses/" target="_blank">standards</a>; and a moratorium on new coal <a href="https://www.washingtonpost.com/news/energy-environment/wp/2016/01/14/obama-administration-set-to-announce-moratorium-on-some-new-federal-coal-leases/" target="_blank">leases</a> on public lands.<strong> </strong>In recent weeks, the administration has finalized a <a href="https://www.doi.gov/pressreleases/interior-department-announces-final-rule-reduce-methane-emissions-wasted-gas-public" target="_blank">rule</a> that seeks to limit methane emissions from oil and gas facilities and has placed a chunk of the <a href="http://fortune.com/2016/11/18/barack-obama-arctic-drilling/" target="_blank">Arctic</a> off limits to further offshore drilling.</p>
+
+<div class="pullquote-left">The &quot;Obama administration has frittered away its time,&quot; said Derek Teaney of Appalachian Mountain Advocates.</div>
+
+<p>The Stream Protection Rule revisions would be one more piece of the conservation puzzle.<strong> </strong>The original regulations, enacted more than 30 years ago, were intended to protect streams and their ecosystems from waste discharged during coal mining operations. According to the environmental impact <a href="http://www.osmre.gov/programs/rcm/docs/sprFEIS.pdf" target="_blank">statement</a> released by the Interior Department, &quot;Scientific studies published since [the original regulations were adopted in 1983] have indicated that surface coal mining operations continue to have significant negative impacts on streams, fish, and wildlife.&quot;</p>
+
+<p>Derek Teaney, senior attorney with the nonprofit Appalachian Mountain Advocates, says that environmentalists have been waiting years for the rule to be strengthened.<strong> </strong>It was last updated by the Bush administration in 2008, and critics complained that those changes left coal companies with too many loopholes. The Bush-era revisions were challenged in court by environmental groups, and the Interior Department withdrew them in 2014.&nbsp;</p>
+
+<p>The industry disputes the idea that the existing regulations are insufficient. In a statement, the National Mining Association warned that the proposed revisions would destroy coal jobs while providing &quot;no discernable environmental benefits while duplicating extensive existing environmental protections.&quot;</p>
+
+<p>Republicans in Congress are also opposed. Jim Inhofe (R-Okla.), the outgoing chair of the Senate's environmental committee, said during a hearing in February that the proposal &quot;would establish new onerous conditions.&quot; He called it &quot;an illegal power grab.&quot;</p>
+
+<p>The revised rule has remained in bureaucratic limbo for months, and now some activists are worried that the delays will make it easy for Trump and the Republican-controlled Congress to stop it from going into effect. The initial draft of the revised rule was released in 2015, and the Interior Department released an environmental impact statement on November 16. According to <a href="https://www.epa.gov/nepa/national-environmental-policy-act-review-process" target="_blank">federal law</a>, the rule cannot be finalized for at least 30 days from the date of the final environmental impact statement, meaning that the earliest it can be completed is mid-December.</p>
+
+<p>The &quot;Obama administration has frittered away its time,&quot; said Teaney.</p>
+
+<div class="pullquote-left">&quot;Time for this is past due. Please save our water.&quot;</div>
+
+<p>According to Thom Kay of the environmental group Appalachian Voices, congressional Republicans who oppose the new rule may now be able to use an obscure law called the <a href="https://www.fas.org/sgp/crs/misc/R43992.pdf" target="_blank">Congressional Review Act</a> to overturn it. Under the CRA, Congress has 60 days after receiving a finalized rule to file a resolution disapproving it. If both houses pass the resolution, it goes to the president's desk, where it can be vetoed. (Last year, for example, Republicans in Congress attempted to use the CRA to overturn Obama's Clean Power Plan. Obama simply <a href="http://thehill.com/policy/energy-environment/263805-obama-vetoes-gop-attempts-to-kill-climate-rules" target="_blank">vetoed the resolutions</a>.) But there will be a new president and a new Congress just days after Interior says the new Stream Protection Rule will be finalized. Trump&mdash;who has promised to revitalize the coal industry and to &quot;<a href="https://www.donaldjtrump.com/press-releases/an-america-first-energy-plan" target="_blank">rescind all the job-destroying Obama executive actions</a>&quot;&mdash;is unlikely to veto a resolution sent by majorities of his own party.</p>
+
+<p>If congressional Republicans do employ this strategy to try to defeat the rule, Kay said it would be a &quot;tough fight for us,&quot; but &quot;one that we're willing to take on.&quot;</p>
+
+<p>Local activists say the new rule is desperately needed to improve stream conditions. Matt Wasson, director of programs at Appalachian Voices, told Inhofe's committee at a <a href="http://www.epw.senate.gov/public/_cache/files/77373467-0bcd-48cd-9e8d-eb79f55bb647/spw-020316.pdf" target="_blank">hearing</a> in February that the rule could prevent further harm caused by coal pollution to residents and wildlife in Appalachia. He cited lower life expectancy in coal mining areas and concerns about diseases such as cancer.</p>
+
+<p>Some members of the public, who were allowed to comment on the rule over a period of three months, echoed Wasson's statements. One, identified by Wasson at the hearing as Gary Garrett from Tennessee, said: &quot;It's gone! What once was a gathering spot for many locals is no longer and will never be again. The cold, crystal clear, mountain water that brought many folks with empty water jugs in hand to fill to a small mountain stream which once flowed down 78 Old Standard Hill in the Clairfield area of Claiborne County, Tennessee is now covered up.&quot;</p>
+
+<p>Another <a href="https://www.regulations.gov/document?D=OSM-2010-0018-10440" target="_blank">commenter</a>, identified as Patrick G. Jones, from Kentucky, said, &quot;As a citizen of Kentucky and frequent visitor of West Virginia I have seen far too many perennial streams destroyed by strip and deep mine runoff. Time for this is past due. Please save our water [lest] it become polluted by chemicals that can not be removed.&quot;</p>
+</div><!-- end node-body-top --><div id="node-body-break"></div><div id="node-body-bottom"><div id="node-bottom-block" class="block region region-node-bottom-block"><div id="block-block-511" class="block block-block region-odd odd region-count-1 count-1 blockname-block-block-bottom-of-articles-and-blog-postsclimate-desk-banner "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <p><a style="background-image: none;" href="http://climatedesk.org/"><img src="/sites/all/assets/CDWeb_block-UPDATED-May16_630px.png" /></a></p>
+<script type="text/javascript" src="http://assets.motherjones.com/embeds/mjcd_pixel.js"></script>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+</div></div><div id="node-footer" class="clear-block"><div id="connect" class="region region-connect"><div id="block-block-49" class="block block-block region-odd even region-count-1 count-2 blockname-block-block-newsletter-plug---tomato "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <div class="newsletter-signup">
+  <h5>Get the scoop, &nbsp;straight from Mother Jones.</h5>
+  <form action="https://api.maropost.com/accounts/585/forms/3289/subscribe/177d8ba3b7fe7d39e28dcba73123eeffbd01878b" method="post" style="margin: 0 auto;" onsubmit="return MJ_check_email(this);">
+    <table summary="Mother Jones Newsletter Sign Up Form" style="margin: 0 auto;width:390px" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td>
+            <input include_blank="true" start_year="1950" type="hidden" name="custom_fields[outreach_affiliate_code]" id="custom_fields_outreach_affiliate_code" value="Article_Bottom" />
+            <input include_blank="true" start_year="1950" type="hidden" name="custom_fields[signup_url]" id="signup_url" value="" />
+            <input type="hidden" value="" id="email_field" name="email_const_mp" />
+                                                <i class="icon-envelope"></i>
+            <input include_blank="true" start_year="1950" name="contact_fields[email]" id="cons_email" placeholder="ENTER YOUR EMAIL" type="text" />
+          </td>
+          <td>
+            <input id="newsletter-signup" type="submit" name="commit" id="submit" value="Submit" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+</div><!-- end connect block --><ul class="article-tools"><li class="toolbar-btn largebutton largefbbutton"><a onclick="ga('send', 'event', 'EndOfArticle', 'FacebookShare|Click', window.location.href);" href="http://facebook.com/sharer.php?u=http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal" target="_blank"><i class="icon-facebook"></i><span class="nearicon">Share on Facebook</span></a></li><li class="tweet toolbar-btn largebutton largetwitterbutton"><a onclick="ga('send', 'event', 'EndOfArticle', 'TwitterShare|Click', window.location.href);" href="http://twitter.com/home?status=How+Trump+can+quash+Obama%E2%80%99s+last+effort+to+fight+the+coal+industry http://www.motherjones.com/environment/2016/11/trump-obama-stream-protection-rule-coal via @MotherJones" target="_blank"><i class="icon-twitter"></i><span class="nearicon">Share on Twitter</span></a></li></ul><p class="members-like-you"><em>Mother Jones</em> is a nonprofit, and stories like this are made possible by readers like you. <a class="donate" href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGP004&extra_don=1&abver=A">Donate</a> or <a class="subscribe" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN4&base_country=US">subscribe</a> to help fund independent journalism.</p></div>  </div> <!-- end inner node content -->
+
+
+
+</div></div> <!-- /node-inner, /node -->
+          <div id="related-articles"><h2 class="title">Related</h2><ul class="community-nav related-articles-list"><li class="community-nav-item"><a href="/environment/2016/11/climate-deniers-trump-administration"><img src="http://www.motherjones.com/files/imagecache/imagecache-300x169/headsand2000.jpg" alt="" title="" width="300" height="169" class="imagecache imagecache-imagecache-300x169"/></a><h3 class="title"><a href="/environment/2016/11/climate-deniers-trump-administration">Look at All the Climate Change Deniers Vying for Jobs in the Trump Administration</a></h3><div class="byline nav-byline"><span class="byline byline-byline"><a href="/authors/jeremy-schulman" rel="author">Jeremy Schulman</a></span></div></li></ul></div><!-- end related -->        </div> <!-- end content area -->
+
+
+      </div></div> <!-- /#content-inner, /#content -->
+
+
+              <div id="sidebar-right"><div id="sidebar-right-inner" class="region region-right">
+          <div id="block-block-301" class="block block-block region-odd odd region-count-1 count-3 blockname-block-block-rhs---subpages-billboard-ad "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <div class="advertise-top"></div>
+<script language="javascript">
+<!--
+if (typeof MJ_HideRightColAds === 'undefined') {
+  ad_code('RightTopROS300x600',529);
+}
+//-->
+</script>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-views-popular-block_2" class="block block-views region-even even region-count-2 count-4 blockname-block-views-rhc-top-stories-block "><div class="block-inner">
+
+      <h2 class="title">Top News</h2>
+
+  <div class="content clear-block">
+    <div class="view view-popular view-id-popular view-display-id-block_2 view-dom-id-1">
+        <div class="view-header">
+      <style type="text/css">
+<!--
+#block-views-popular-block_1 span.byline {
+  display: block;
+  width: 190px;
+  float:right;
+}
+
+#block-views-popular-block_1 div span.byline p.byline {
+ margin-left: 0;
+}
+
+-->
+</style>    </div>
+
+
+
+      <div class="view-content">
+        <div class="views-row clear-block views-row-1 views-row-odd views-row-first">
+
+  <div class="views-field views-field-title">
+                <span class="field-content"><h3 class="title"><a href="/environment/2016/09/monsanto-farming-precision-agriculture">Robots Are Growing Tons of Our Food. Here&#039;s the Creepy Part.</a></h3></span>
+  </div>
+
+  <div class="views-field views-field-field-byline-nid">
+                <div class="field-content"><span class="byline"><span class="byline byline-byline"><a href="/authors/tom-philpott" rel="author">Tom Philpott</a></span> </span></div>
+  </div>
+    </div>
+  <div class="views-row clear-block views-row-2 views-row-even">
+
+  <div class="views-field views-field-title">
+                <span class="field-content"><h3 class="title"><a href="/environment/2016/11/trump-obama-stream-protection-rule-coal" class="active">How Trump Can Quash Obama’s Last Effort to Fight the Coal Industry</a></h3></span>
+  </div>
+
+  <div class="views-field views-field-field-byline-nid">
+                <div class="field-content"><span class="byline"><span class="byline byline-byline"><a href="/authors/natalie-schreyer" rel="author">Natalie Schreyer</a></span> </span></div>
+  </div>
+    </div>
+  <div class="views-row clear-block views-row-3 views-row-odd views-row-last">
+
+  <div class="views-field views-field-title">
+                <span class="field-content"><h3 class="title"><a href="/environment/2016/11/sleep-deprivation-costs-us-economy-411-billion-every-year">Your Boss Should Let You Sleep In More Often</a></h3></span>
+  </div>
+
+  <div class="views-field views-field-field-byline-nid">
+                <div class="field-content"><span class="byline"><span class="byline byline-byline"><a href="/authors/samantha-michaels" rel="author">Samantha Michaels</a></span> </span></div>
+  </div>
+    </div>
+    </div>
+
+
+
+
+
+
+</div>   </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-60" class="block block-block region-odd odd region-count-3 count-5 blockname-block-block-subscribe-for-10----global-sidebar-form "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <style type="text/css">#interior-rhc-membership {
+  width: 300px;
+  display: block;
+  float: right;
+  height: 721px;
+  /*background-image: url('/sites/all/assets/membership_ads123_8a_.png');*/
+  background-image: url('http://assets.motherjones.com/sitewide/Membership_AD-416.jpg');
+  background-size: contain;
+}
+
+#interior-rhc-membership .donation {
+  display: block;
+  height: 30px;
+  position: relative;
+  top: 180px;
+}
+#interior-rhc-membership .donation:hover {
+  background: rgba(255, 255, 255, .5)
+}
+#interior-rhc-membership .donation.onetime {
+  width: 118px;
+  left: 25px;
+}
+#interior-rhc-membership .donation.monthly {
+  width: 118px;
+  top: 150px;
+  left: 155px;
+}
+#interior-rhc-membership form {
+  position: relative;
+  top: 240px;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  width: 244px;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 26px;
+}
+#interior-rhc-membership form button {
+  border: transparent;
+  background: transparent;
+  width: 72px;
+  height: 29px;
+  font-size: 0px;
+  position: relative;
+  top: -4px;
+}
+#interior-rhc-membership button:hover {
+  background: rgba(255, 255, 255, .5)
+}
+
+#interior-rhc-membership form input {
+  background: white;
+  border: transparent;
+  position: relative;
+  top: 2px;
+  left: -2px;
+  width: 160px;
+  height: 20px;
+  outline: none!important;
+}
+#interior-rhc-membership form input {
+  text-align: center;
+  font-family: Mallory, sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+#interior-rhc-membership .subscribe {
+  display: block;
+  position: relative;
+  top: 352px;
+  height: 30px;
+  left: 26px;
+  width: 127px;
+}
+#interior-rhc-membership .subscribe:hover {
+  background: rgba(255, 255, 255, .5)
+}
+#interior-rhc-membership .subscribe_cover {
+  display: block;
+  position: relative;
+  top: 320px;
+  height: 228px;
+  left: 20px;
+  width: 254px;
+}
+#interior-rhc-membership .subscribe_cover:hover {
+  background: rgba(255, 255, 255, .5)
+}
+</style>
+<div id="interior-rhc-membership">
+<a class="onetime donation" target="_blank" href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGPA01&extra_don=1&abver=A"></a>
+<a class="monthly donation" target="_blank" href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGPAM1&extra_don=1&abver=B"></a>
+
+<form action="https://api.maropost.com/accounts/585/forms/3289/subscribe/177d8ba3b7fe7d39e28dcba73123eeffbd01878b" method="post" id="emailForm" onsubmit="return MJ_check_email(this);">
+  <button alt="SIGN UP" border="0" height="25" name="commit" id="submit" onclick="ga('send', 'event', 'TopRightFollowBox', 'Email|Click', window.location.pathname);" type="image" value="Submit">SIGN UP</button>
+  <input gtbfieldid="27" include_blank="true" start_year="1950" name="contact_fields[email]" id="cons_email" placeholder="YOUR EMAIL" type="text" />
+  <input include_blank="true" start_year="1950" type="hidden" name="custom_fields[outreach_affiliate_code]" id="custom_fields_outreach_affiliate_code" value="Article_Membership_Box" />
+  <input include_blank="true" start_year="1950" type="hidden" name="custom_fields[signup_url]" id="signup_url" value="" />
+  <input type="hidden" value="" id="email_field" name="email_const_mp" />
+</form>
+<a class="subscribe_cover" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN2&base_country=US "></a>
+<a class="subscribe" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN2&base_country=US "></a>
+</div>
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+        </div></div> <!-- /#sidebar-right-inner, /#sidebar-right -->
+
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="page-closure"><div id="page-closure-inner" class="region">
+                  <div id="content-bottom" class="region region-content_bottom">
+            <div id="block-disqus-disqus_comments" class="block block-disqus region-odd even region-count-1 count-6 blockname-block-disqus-disqus-comments "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <div id="disqus_thread"></div><div class="disqus-noscript display-disqus" onclick="displayDisqus(); $(this).addClass('hidden'); return false;"><a href="http://motherjones.disqus.com/?url=http%3A%2F%2Fwww.motherjones.com%2Fnode%2F320251"><i class="icon-plus"></i>view comments</a></div>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+          </div> <!-- /#content-bottom -->
+
+        <div id="block-block-58" class="block block-block region-odd even region-count-1 count-16 blockname-block-block-page-closure-leaderboard "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <script language="javascript">
+<!--
+if (typeof MJ_HideBottomROS970x250 === 'undefined') {
+  ad_code('BottomROS970x250',2473);
+}
+//-->
+</script>   </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+      </div></div> <!-- /#page-closure -->
+
+  </div></div> <!-- /#page-inner, /#page -->
+</div></div>
+
+
+  <div id="page-footer">
+    <div id="page-footer-inner">
+              <div id="footer"><div id="footer-inner" class="region region-footer">
+
+
+          <div id="block-block-2" class="block block-block region-odd even region-count-1 count-8 blockname-block-block-footer---logo-menu-rss-copyright "><div class="block-inner">
+
+
+  <div class="content clear-block">
+                <a href="/" id="footer-logo">
+                <img src="/sites/all/assets/MJ_comp_grey.png" alt="Mother Jones" />
+            </a>
+            <ul id="footer-social">
+                <li class="circled-icon toolbar-btn fblike">
+                    <a href="https://www.facebook.com/motherjones">
+                        <i class="icon-facebook"></i>
+                    </a>
+                </li>
+                <li class="circled-icon toolbar-btn tweet">
+                    <a href="https://twitter.com/motherjones">
+                        <i class="icon-twitter"></i>
+                    </a>
+                </li>
+                <li class="toolbar-btn newsletter">
+                    <a href="/about/interact-engage/free-email-newsletter" class="hover-newsletter">
+                    </a>
+                </li>
+            </ul>
+            <ul id="footer-list">
+                <li>
+                    <a href="/about">
+                        About Us
+                    </a> |
+                    <a href="http://store.motherjones.com/?utm_source=motherjones&utm_medium=footer&utm_content=orangefooterlink&utm_campaign=evergreen">
+                        Store
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/support">
+                        Donate
+                    </a>
+|                    <a href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&pub_code=MJM&term_pub=MJM&list_source=SEGYN4&base_country=US">
+                        Subscribe
+                    </a>
+                </li>
+                <li>
+                     <a href="/about/subscriptions/customer-service">
+                          Customer Service
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/advertising/contact-form">
+                        Advertise
+                    </a>
+                </li>
+            </ul>
+            <div id="copyright">
+                <p>
+                    Copyright &copy;2016 Mother Jones and the Foundation for National Progress. All Rights Reserved.
+               </p>
+                <p>
+                    <a href="/about/terms">Terms of Service</a>
+                    <a href="/about/privacy-policy">Privacy Policy</a>
+                    <a href="/about/contact">Contact Us</a>
+                </p>
+            </div>
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+
+        </div></div> <!-- /#footer-inner, /#footer -->
+        </div></div> <!-- /#page-footer-inner, /#page-footer -->
+
+      <div id="closure-blocks" class="region region-closure"><div id="block-block-33" class="block block-block region-odd odd region-count-1 count-9 blockname-block-block-analytics-code "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Be0QSW1bbb6Qv"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-Be0QSW1bbb6Qv.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 941756981;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/941756981/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-411" class="block block-block region-even even region-count-2 count-10 blockname-block-block-ga-event-tracking "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <script type="text/javascript">
+
+$(document).ready(function() {
+  var gaEventCategory = null;
+  var bodyClasses = $('body').attr('class');
+  var gaEventAction = 'LinkClick';
+  var bodyClassesArray = bodyClasses.split(' ');
+
+  if (jQuery.inArray('front', bodyClassesArray) != -1) {
+    gaEventCategory = 'areaTracking_front';
+
+    var areaSelectorArray = ['body.front .view-display-id-panel_pane_1 ',
+    'body.front .center-wrapper-above .pane-frontpage-stories',
+    'body.front .pane-views-photoessay-block-3 ',
+    'body.front .pane-motherjones-custom-7 ',
+    'body.front contributors: .pane-motherjones-custom-6 ',
+    'body.front .center-wrapper-below .pane-frontpage-stories',
+    'body.front .pane-views-feedback-block-1 ',
+    'body.front #mymojo ',
+    'body.front .view-most-must-read ',
+    'body.front #disqus-mostpopular ',
+    'body.front #block-block-4 ',
+    'body.front #block-motherjones_custom-8 ',
+    'body.front #block-views-alumni_love-block ',
+    'body.front #block-views-interns-block_1 ',
+    'body.front #front-page-article-lists ',
+    'body.front #footerlinks '
+    ];
+  } else if (jQuery.inArray('node-type-article', bodyClassesArray) != -1) {
+    gaEventCategory = 'areaTracking_article';
+
+    var areaSelectorArray = ['body.node-type-article #node-header',
+    'body.node-type-article #node-body-top',
+    'body.node-type-article #node-body-bottom',
+    'body.node-type-article #node-footer',
+    'body.node-type-article #related-articles',
+    'body.node-type-article #mymojo',
+    'body.node-type-article div.blockname-block-views-todays-top-stories',
+    'body.node-type-article div.view-most-must-read',
+    'body.node-type-article div.disqus-mostpopular',
+    'body.node-type-article div.blockname-block-block-intune--inprint-sidebar-block',
+    'body.node-type-article #ticker',
+    'body.node-type-article #primary',
+    'body.node-type-article #block-views-photoessay-block_1',
+    'body.node-type-article #footerlinks'
+    ];
+  } else if (jQuery.inArray('node-type-blogpost', bodyClassesArray) != -1) {
+
+    gaEventCategory = 'areaTracking_blogpost';
+
+    var areaSelectorArray = ['body.node-type-blogpost #node-header',
+    'body.node-type-blogpost #blog-nav',
+    'body.node-type-blogpost #node-body-top',
+    'body.node-type-blogpost #node-body-bottom',
+    'body.node-type-blogpost #node-footer',
+    'body.node-type-blogpost #related-articles',
+    'body.node-type-blogpost #mymojo',
+    'body.node-type-blogpost div.blockname-block-views-todays-top-stories',
+    'body.node-type-blogpost div.view-most-must-read',
+    'body.node-type-blogpost div.disqus-mostpopular',
+    'body.node-type-blogpost div.blockname-block-block-intune--inprint-sidebar-block',
+    'body.node-type-blogpost #ticker',
+    'body.node-type-blogpost #primary',
+    'body.node-type-blogpost #block-views-photoessay-block_1',
+    'body.node-type-blogpost #footerlinks'
+    ];
+  } else if (jQuery.inArray('node-type-photoessay-image', bodyClassesArray) != -1) {
+
+    gaEventCategory = 'areaTracking_photoessay-image';
+
+    var areaSelectorArray = ['body.node-type-photoessay-image .sidebar-right a.photoessay-forward',
+    'body.node-type-photoessay-image .sidebar-right a.photoessay-back',
+    'body.node-type-photoessay-image .sidebar-right a.photoessay-rewind',
+    'body.node-type-photoessay-image .photoessay-controls a.photoessay-forward',
+    'body.node-type-photoessay-image .photoessay-controls a.photoessay-back',
+    'body.node-type-photoessay-image .photoessay-controls a.photoessay-rewind',
+    'body.node-type-photoessay-image #related-articles',
+    'body.node-type-photoessay-image div.blockname-block-views-todays-top-stories',
+    'body.node-type-photoessay-image #primary',
+    'body.node-type-photoessay-image #footerlinks',
+    'body.node-type-photoessay-image a.colorbox-thumbs',
+    'body.node-type-photoessay-image a.larger-image-link',
+    'body.node-type-photoessay-image a.see-all',
+    'body.node-type-photoessay-image .photoessay-essay a',
+    'body.node-type-photoessay-image #node-footer',
+    'body.node-type-photoessay-image #node-footer div.fblike_btn',
+    'body.node-type-photoessay-image .photoessay-share-buttons',
+    'body.node-type-photoessay-image .photoessay-share-buttons div.fblike_btn',
+    'body.node-type-photoessay-image .sidebar-right .view-id-photoessay',
+    'body.node-type-photoessay-image #block-block-60',
+    'body.node-type-photoessay-image #block-block-396'
+    ];
+  } else if (jQuery.inArray('page-politics', bodyClassesArray) != -1) {
+    gaEventCategory = 'areaTracking_politics';
+
+    var areaSelectorArray = ['body.page-politics div.views-row-1',
+    'body.page-politics div.view-section-page-articles',
+    'body.page-politics #mymojo',
+    'body.page-politics div.blockname-block-views-todays-top-stories',
+    'body.page-politics div.view-most-must-read',
+    'body.page-politics div.disqus-mostpopular',
+    'body.page-politics div.blockname-block-block-intune--inprint-sidebar-block',
+    'body.page-politics #ticker',
+    'body.page-politics #primary',
+    'body.page-politics #footerlinks'
+    ];
+  }
+  if (gaEventCategory != null) {
+    for (var selector in areaSelectorArray) {
+      $(areaSelectorArray[selector] + ' a').click(function(selectorString) { return function(){ _gaq.push(['_trackEvent', gaEventCategory, gaEventAction, selectorString]); }}(areaSelectorArray[selector]));
+
+    }
+  }
+});
+</script>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-631" class="block block-block region-odd odd region-count-3 count-11 blockname-block-block-popunder-overlay-ad-code "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <!--JavaScript Tag with Companion/Tiling and User Time Targeting // Tag for network 5443: Mother Jones // Website: www.motherjones.com // Page: Advanced // Placement: Overlay (2864008) // created at: Jul 27, 2013 6:17:33 PM-->
+<script language="javascript">
+<!--
+if (typeof MJ_HideOverlayAds === 'undefined') {
+  ad_code('overlay',67);
+}
+//-->
+</script>
+<!-- End of JavaScript Tag -->
+  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-686" class="block block-block region-even even region-count-4 count-12 blockname-block-block-bottom-donate-bar "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <div id="bottom-donate" style="display:none">
+  <p>
+    We noticed you have an ad blocker on.
+    Support nonprofit investigative reporting by pitching in a few
+    bucks.
+    <a href="https://secure.motherjones.com/fnp/?action=SUBSCRIPTION&list_source=7HEGZS1A&extra_don=1&abver=A">DONATE</a>
+    <span onclick="$('#bottom-donate').remove();">X</span>
+  </p>
+</div>  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-836" class="block block-block region-odd odd region-count-5 count-13 blockname-block-block-incontentadunit "><div class="block-inner">
+
+
+  <div class="content clear-block">
+    <!--Ad code for in content ad unit.  Uses jquery to only load on pages that do not have divs with a class named inline or inline-nav -->
+<script language="javascript">
+<!--
+if ((typeof MJ_HideInContentAds === 'undefined') && (!($(".inline-right")[0])) && (!($(".inline-subnav")[0])))  {
+  ad_code('InContentAdUnit',16);
+}
+//-->
+</script>
+<!-- End of JavaScript Tag -->  </div>
+
+
+</div></div> <!-- /block-inner, /block -->
+</div>
+
+  <script type="text/javascript">var disqus_url = "http:\/\/www.motherjones.com\/node\/320251"; var disqus_title = "How Trump Can Quash Obama\u2019s Last Effort to Fight the Coal Industry"; var disqus_message = ""; var disqus_identifier = "node\/320251"; var disqus_shortname = "motherjones"; function checkIfDisqusIsVisible(){   var $elem = $('#block-disqus-disqus_comments');   var $window = $(window);   var docViewTop = $window.scrollTop();   var docViewBottom = docViewTop + $window.height();   var elemTop = $elem.offset().top;   var elemBottom = elemTop + $elem.height();   if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {      ga('send', 'event', 'CommentsSection', 'ScrolledToComments', window.location.href);      return   };   window.setTimeout(checkIfDisqusIsVisible, 10000)}function disqus_config() {    this.callbacks.onNewComment = [function() { ga('send', 'event', 'CommentsSection', 'NewComment', window.location.href); }];    this.callbacks.afterRender = [function() { checkIfDisqsIsVisible(); }];}var displayDisqus = function(callback) {   callback = typeof callback === "function" ? callback : function() {$(".display-disqus").addClass("hidden");};  $.ajax({    type: "GET",    url: 'http://disqus.com/forums/' + disqus_shortname + '/embed.js',    dataType: "script",    success: callback,    cache: true  });};if (window.location.hash &&    (window.location.hash.match(/^\#comment/) || window.location.hash.match(/^\#disqus_thread/) ) ) {  displayDisqus(function() {$(".display-disqus").addClass("hidden");})}var disqus_remote_auth_s2 = "({})";</script>
+
+
+
+<script type="text/javascript" src="/sites/all/assets/nav.js"></script>
+
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 10683;
+    _sf_async_config.domain = 'motherjones.com';
+    _sf_async_config.sections = Drupal.settings.denali.section;  //CHANGE THIS
+    _sf_async_config.authors = Drupal.settings.denali.author;    //CHANGE THIS
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+           'js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<script type="text/javascript">
+FB.Event.subscribe('edge.create',
+  function(response) {
+  // include optimizely tracking iff var is on; always send fb like event to GA
+
+    ga('send', 'event', 'Facebook', 'Like', window.location.href);
+  }
+);
+</script>
+<script>
+twttr.ready(function (twttr) {
+  twttr.events.bind('tweet', function(event) { ga('send', 'event', 'Twitter', 'Tweet', window.location.href);  });
+
+});
+</script>
+<!-- Begin comScore Tag -->
+<script>
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "8027488" });
+ (function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+   el.parentNode.insertBefore(s, el);
+ })();
+</script>
+<noscript>
+ <img src="http://b.scorecardresearch.com/p?c1=2&c2=8027488&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script src="http://mj-tech.motherjones.net/adtracking.js"></script>
+<script>
+  if (typeof noadblocking === "undefined") {
+      var checked = Get_Cookie('noad');
+      if (!checked) {
+        Set_Cookie('noad', true, 0.25, '/');
+        $('#bottom-donate').show();
+        ga('send', 'event', 'AdblockDetected', 'DonateDisplayed', window.location.href);
+      } else {
+        ga('send', 'event', 'AdblockDetected', 'NoDonateDisplayed', window.location.href);
+      }
+  }
+ga('send', 'event', 'Author', 'Natalie Schreyer', window.location.href);</script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"177009cc6a","applicationID":"788901","transactionName":"Y1EAbURRChdVVEFQCVobI1pCWQsKG1laXQNrRANeU28SDVFA","queueTime":0,"applicationTime":638,"atts":"TxYDGwxLGRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
